@@ -10,13 +10,9 @@ public class Employee {
 
     public Employee(String firstName, String lastName, int age, String team, long salary){
 
-
-
         if (age < 18){
             System.out.println("Incorrect age value");
         }
-
-
 
         this.firstName = firstName;
         this.lastName = lastName;
